@@ -82,3 +82,84 @@ body {
 .profile img {
     height: 6rem;
 }
+
+.instagram-login {
+    background: #0095F8;
+    color: white;
+    
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout {
+    color: #0095F8;
+
+    margin-top: 1rem;
+}
+
+.not-account {
+    color: rgb(160, 160, 160);
+}
+
+.link {
+    color: #0095F8;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    padding: 1rem;
+}
+
+.app-download {
+    background: cover;
+
+    height: 3rem;
+    width: 10rem;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./images/app-store-botao.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./images/google-play-badge.png');
+}
+
+/* media queries */
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+}
