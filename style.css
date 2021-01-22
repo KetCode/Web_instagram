@@ -71,15 +71,16 @@ body {
     height: 3rem;
 }
 
-.profile {
+.profile-photo {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
     overflow: hidden;
+    
+    border-radius: 50%;
 }
 
-.profile img {
+.profile-photo img {
     height: 6rem;
 }
 
@@ -125,7 +126,7 @@ body {
 }
 
 .app-download {
-    background: cover;
+    background-size: cover;
 
     height: 3rem;
     width: 10rem;
