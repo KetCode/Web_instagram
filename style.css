@@ -8,19 +8,22 @@
 }
 
 body {
-    width: 100%;
-    min-height: 100vh;
     background: rgb(243, 243, 243);
+    justify-content: center;
+    display: flex;
+    
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    
+    width: 100%;
+    min-height: 100vh;
 }
 
 .instagram-wrapper {
     display: flex;
     align-items: center;
     justify-content: start;
+    
     width: 60%;
     height: 100vh;
 }
@@ -29,6 +32,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     width: 50%;
 }
 
@@ -36,3 +40,45 @@ body {
     height: 50rem;
 }
 
+.instagram-continue {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    background: white;
+    border: 1px solid lightgray;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img {
+    height: 6rem;
+}
